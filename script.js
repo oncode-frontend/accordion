@@ -11,7 +11,6 @@ const closeAllTabs = () => {
         togglesElem[i].style.color = "#111130"
         icon[i].classList.remove("fa-minus")
         icon[i].classList.add("fa-plus")
-
     }
 } 
 wrapperElem.forEach(we => {
